@@ -1,0 +1,19 @@
+//////////////////////////////////////////////////////////////
+//															//
+//		generates a tone									//
+//		Kane Anderson										//
+//		07/29/2012											//
+//															//
+//////////////////////////////////////////////////////////////
+
+#ifndef TONE_H
+#define TONE_H
+
+// includes //////////////////////////////////////////////////
+#include "./SineArray.h"
+
+extern const UI16 ToneIndexPositionsPerDegreePhase;
+
+Word getToneValueAt(UI16 time);
+
+#endif
